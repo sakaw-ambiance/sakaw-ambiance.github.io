@@ -1003,67 +1003,10 @@ About page
 	font-weight: 700;
 }
 
-.team-section {
-	padding-top: 70px;
-	padding-bottom: 40px;
+.about-text-additional {
 	background: #f2f3f4;
-}
-
-.team-member {
-	background: #fff;
-	overflow: hidden;
-	margin-bottom: 30px;
-}
-
-.team-member .member-pic {
-	max-width: 264px;
-	float: left;
-	margin-right: 28px;
-	position: relative;
-}
-
-.team-member .member-link {
-	position: absolute;
-	width: 62px;
-	height: 61px;
-	right: 0;
-	bottom: 0;
-	font-size: 26px;
-	line-height: 26px;
-	color: #fff;
-	font-weight: 700;
-	text-align: center;
-	padding-top: 15px;
-	background: #12c7b8;
-}
-
-.team-member .member-info {
-	padding-right: 20px;
-	padding-bottom: 30px;
-	overflow: hidden;
-}
-
-.team-member .member-info h4 {
-	font-weight: 700;
-	margin-bottom: 8px;
-	padding-top: 55px;
-}
-
-.team-member .member-info h5 {
-	font-weight: 300;
-	color: #73778e;
-	margin-bottom: 20px;
-}
-
-.team-member .member-info p {
-	font-size: 14px;
-	font-weight: 300;
-	font-style: italic;
-}
-
-.about-text-box-warp {
-	padding-top: 5px;
-	padding-bottom: 45px;
+	padding: 20px;
+	padding-bottom: 70px;
 }
 
 /* ----------------
