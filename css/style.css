@@ -978,35 +978,6 @@ About page
   color: #12c7b8;
 }
 
-.milestone-warp {
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  padding-top: 60px;
-}
-
-.milestone-warp .milestone {
-  -ms-flex: 0 0 20%;
-  -webkit-box-flex: 0;
-  flex: 0 0 20%;
-  max-width: 20%;
-  text-align: center;
-  padding-bottom: 60px;
-}
-
-.milestone-warp .milestone h2 {
-  font-size: 96px;
-  color: #12c7b8;
-  font-weight: 300;
-  margin-bottom: 10px;
-}
-
-.milestone-warp .milestone h4 {
-  font-weight: 700;
-}
-
 .about-text-additional {
   background: #f2f3f4;
   padding: 20px;
@@ -1487,12 +1458,6 @@ Responsive
   .page-top-text {
     text-align: center;
   }
-  .milestone-warp .milestone h2 {
-    font-size: 60px;
-  }
-  .milestone-warp .milestone h4 {
-    font-size: 16px;
-  }
   .property-text-warp {
     padding-top: 50px;
     padding-left: 15px;
@@ -1613,12 +1578,6 @@ Responsive
   .page-top-text {
     text-align: center;
   }
-  .milestone-warp .milestone {
-    -ms-flex: 0 0 50%;
-    -webkit-box-flex: 0;
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
   .property-text-warp {
     padding-top: 50px;
     padding-left: 15px;
@@ -1675,12 +1634,6 @@ Responsive
   .member-info {
     padding-left: 20px;
   }
-  .milestone-warp .milestone h2 {
-    font-size: 60px;
-  }
-  .milestone-warp .milestone h4 {
-    font-size: 16px;
-  }
 }
 
 /* Small Mobile :320px. */
@@ -1715,12 +1668,6 @@ Responsive
     flex: 0 0 100%;
     max-width: 100%;
     margin-bottom: 30px;
-  }
-  .milestone-warp .milestone {
-    -ms-flex: 0 0 100%;
-    -webkit-box-flex: 0;
-    flex: 0 0 100%;
-    max-width: 100%;
   }
   .contact-info-box {
     padding: 30px 30px 63px;
