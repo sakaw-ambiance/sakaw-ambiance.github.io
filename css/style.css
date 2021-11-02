@@ -523,116 +523,6 @@ Hero section
   line-height: 1.6;
 }
 
-/* ----------------
-Design section
- ---------------------*/
-
-.design-section {
-  background: #12c7b8;
-  padding-top: 70px;
-  padding-bottom: 60px;
-}
-
-.design-slider a,
-.property-features-slider a {
-  display: block;
-  position: relative;
-}
-
-.design-slider a i,
-.property-features-slider a i {
-  position: absolute;
-  left: calc(50% - 41px);
-  top: calc(50% - 43px);
-  color: #fff;
-  font-size: 82px;
-  line-height: 82px;
-  height: 86px;
-  opacity: 0;
-  -webkit-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.design-slider a::before,
-.property-features-slider a::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  background: #081624;
-  opacity: 0;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.design-slider a:hover i,
-.property-features-slider a:hover i {
-  opacity: 1;
-  -webkit-transform: scale(1);
-  transform: scale(1);
-}
-
-.design-slider a:hover::before,
-.property-features-slider a:hover::before {
-  opacity: 0.5;
-}
-
-.design-slider .owl-nav button.owl-next,
-.design-slider .owl-nav button.owl-prev,
-.property-features-slider .owl-nav button.owl-next,
-.property-features-slider .owl-nav button.owl-prev {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  margin-top: -42px;
-  width: 84px;
-  height: 84px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background: #fff;
-  color: #111;
-  font-size: 30px;
-}
-
-.design-slider .owl-nav button.owl-next:hover,
-.design-slider .owl-nav button.owl-prev:hover,
-.property-features-slider .owl-nav button.owl-next:hover,
-.property-features-slider .owl-nav button.owl-prev:hover {
-  background: #12c7b8;
-  color: #fff;
-}
-
-.design-slider .owl-nav button.owl-next,
-.property-features-slider .owl-nav button.owl-next {
-  left: auto;
-  right: 0;
-}
-
-.design-text {
-  padding-top: 65px;
-}
-
-.design-text h4 {
-  text-transform: uppercase;
-  margin-bottom: 25px;
-}
-
-.design-text p {
-  font-size: 16px;
-  font-weight: 300;
-}
-
 /* -----------------------
 Call to action section
  -------------------------*/
@@ -1221,23 +1111,6 @@ Responsive
     font-size: 15px;
     margin-right: 15px;
   }
-  .design-slider a img {
-    height: 300px;
-    width: auto !important;
-  }
-  .design-slider a i {
-    font-size: 50px;
-    left: calc(50% - 25px);
-  }
-  .design-slider .owl-nav button.owl-next,
-  .design-slider .owl-nav button.owl-prev,
-  .property-features-slider .owl-nav button.owl-next,
-  .property-features-slider .owl-nav button.owl-prev {
-    margin-top: -23px;
-    width: 46px;
-    height: 46px;
-    font-size: 24px;
-  }
   .page-top-text {
     text-align: center;
   }
@@ -1316,27 +1189,6 @@ Responsive
   }
   .hs-item {
     text-align: center;
-  }
-  .design-slider a img {
-    height: 250px;
-    width: auto !important;
-  }
-  .design-slider a i {
-    font-size: 50px;
-    left: calc(50% - 25px);
-  }
-  .design-slider .owl-nav button.owl-next,
-  .design-slider .owl-nav button.owl-prev,
-  .property-features-slider .owl-nav button.owl-next,
-  .property-features-slider .owl-nav button.owl-prev,
-  .about-slider .owl-nav button.owl-next,
-  .about-slider .owl-nav button.owl-prev,
-  .hero-slider .owl-nav button.owl-next,
-  .hero-slider .owl-nav button.owl-prev {
-    margin-top: -23px;
-    width: 46px;
-    height: 46px;
-    font-size: 24px;
   }
   .features-icon-item {
     -webkit-box-flex: 0;

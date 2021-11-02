@@ -118,19 +118,6 @@ $(window).on('load', function() {
 
 
   /*------------------
-    Design Slider
-  --------------------*/
-  $('.design-slider').owlCarousel({
-    loop: true,
-    nav: true,
-    dots:false,
-    items: 3,
-    autoWidth:true,
-    margin: 30,
-    navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-  });
-
-  /*------------------
     About Slider
   --------------------*/
   $('.about-slider').owlCarousel({
@@ -140,13 +127,6 @@ $(window).on('load', function() {
     autoplay: true,
     items: 1,
     navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
-  });
-
-  /*------------------
-    Video Popup
-  --------------------*/
-  $('.play-btn').magnificPopup({
-    type: 'iframe'
   });
 
   /*------------------
