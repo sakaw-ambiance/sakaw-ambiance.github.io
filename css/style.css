@@ -596,6 +596,62 @@ Footer section
   text-decoration: underline;
 }
 
+
+/* -----------------------
+Percentage section
+ -------------------------*/
+.percentage-section {
+
+}
+
+.percentage-section .section-title {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.percentage-section .section-title h2 {
+  margin: 0 0 20px 0;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+.percentage-section .section-title h4 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.percentage-section .intro-text-box {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.percentage-section .intro-text-box .donut_wrapper {
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+.percentage-section .intro-text-box .donut_wrapper .donut_label {
+  top: 128px;
+  position: relative;
+  margin-top: -50px;
+  font-size: 44px;
+  color: #ffffff;
+}
+
+.percentage-section .intro-text-box p {
+  width: 340px;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 30px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+
 /*===============
   ----------------
 Other Pages
