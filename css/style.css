@@ -705,7 +705,7 @@ About page
 .about-text {
   max-width: 550px;
   margin: 0 auto;
-  padding: 120px 0 50px;
+  padding: 80px 0 50px;
 }
 
 .about-text h4 {
@@ -749,6 +749,10 @@ About page
   background: #f2f3f4;
   padding: 20px;
   padding-bottom: 70px;
+}
+
+.about-text-additional h4 {
+  margin-bottom: 20px
 }
 
 /* ----------------
