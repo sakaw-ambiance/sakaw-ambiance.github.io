@@ -635,6 +635,11 @@ Percentage section
   font-weight: normal;
 }
 
+.percentage-section .section-title h2:before {
+  display: none;
+  opacity: 0;
+}
+
 .percentage-section .section-title h4 {
   margin: 0;
   color: #ffffff;
