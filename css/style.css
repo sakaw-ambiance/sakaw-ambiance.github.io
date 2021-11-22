@@ -110,6 +110,26 @@ Helper CSS
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
+  position: relative;
+}
+
+.set-bg:before {
+  content: "";
+  background-color: #353649;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+}
+
+.set-bg.bg-contacts:before {
+  background-color: #00bfa5;
+}
+
+.set-bg .container {
+  position: relative;
 }
 
 .spad {
