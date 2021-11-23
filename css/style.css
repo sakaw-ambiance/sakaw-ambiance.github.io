@@ -575,7 +575,7 @@ Footer section
 }
 
 .footer-widget.footer-logo img {
-  width: 180px;
+  width: 160px;
 }
 
 .footer-widget h5 {
@@ -618,6 +618,7 @@ Footer section
   padding-top: 10px;
   font-size: 16px;
   color: #83869b;
+  text-align: center;
 }
 
 .copyright a {
@@ -630,7 +631,6 @@ Footer section
 Percentage section
  -------------------------*/
 .percentage-section {
-
 }
 
 .percentage-section .section-title {
@@ -842,7 +842,7 @@ About page
   color: #73778e;
   margin-bottom: 20px;
   padding-left: 50px;
-  background-image: url("../new_img/css/check.png");
+  background-image: url("../img/css/check.png");
   background-repeat: no-repeat;
   background-position: left top 6px;
 }
