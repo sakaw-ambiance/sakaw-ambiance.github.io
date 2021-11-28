@@ -1164,7 +1164,7 @@ Responsive
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-menu li a {
-    margin-right: 40px;
+    margin-right: 20px;
   }
   .hero-nav-slider .hns-item {
     padding: 26px 10px 26px 15px;
@@ -1234,13 +1234,11 @@ Responsive
 
 @media only screen and (max-width: 767px) {
   .nav-switch {
-    right: 30px;
     display: block;
     float: right;
     font-size: 32px;
     cursor: pointer;
     color: #fff;
-    margin-right: 40px;
     line-height: 32px;
   }
   .main-menu {
@@ -1352,6 +1350,20 @@ Responsive
   }
   .member-info {
     padding-left: 20px;
+  }
+
+  .hero-social-warp {
+    height: 0;
+    display: none;
+    opacity: 0;
+  }
+
+  .call-to-action-section h2 {
+    font-size: 2em;
+  }
+
+  .footer-section {
+    text-align: center;
   }
 }
 
