@@ -163,7 +163,7 @@ Commom elements
   font-weight: 600;
   min-width: 131px;
   padding: 14px 25px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   background: transparent;
   color: #12c7b8;
   line-height: normal;
