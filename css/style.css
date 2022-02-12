@@ -367,6 +367,7 @@ Hero section
   position: relative;
 }
 
+/* delete social links this commit */
 .hero-social-warp {
   position: absolute;
   height: 100%;
