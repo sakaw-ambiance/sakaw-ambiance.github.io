@@ -1102,6 +1102,19 @@ Contact page
   color: #081624;
 }
 
+.contact-info .ci-item.email {
+  vertical-align: top;
+}
+
+.contact-info .ci-item.email a {
+  font-size: 14px;
+  font-weight: 300;
+  padding: 0;
+  color: #081624;
+}
+
+
+
 .contact-form .form-field {
   position: relative;
 }
