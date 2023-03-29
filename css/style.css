@@ -1165,6 +1165,25 @@ Contact page
 }
 
 /* ----------------
+custom styles
+ ---------------------*/
+.diffusion_technology_img img {
+  padding: 40px;
+}
+
+.diffusion_images {
+  padding-top: 40px;
+  text-align: center;
+}
+.diffusion_images .item {
+  margin-bottom: 80px;
+}
+.diffusion_images .item h2 {
+  margin-bottom: 10px;
+  font-size: 64px;
+}
+
+/* ----------------
 Responsive
  ---------------------*/
 
